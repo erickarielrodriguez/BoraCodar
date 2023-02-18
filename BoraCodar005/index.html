@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="pr-br">
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <div class="calculadora">
-        <div class="calculo">
-            <H1>000000</H1>
+    <div id="calculator">
+        <div id="display">
+            <div id="last-calc">1 + 1</div>
+            <div id="result">
+                <span><img src="assets/igual.svg" alt=""></span>
+                <span>2</span>
+            </div>
         </div>
-        <div class="teclado">
-
+        <div id="keyboard">
+            <button class="secondary">CE</button>
+            <button>C</button>
+            <button>%</button>
+            <button class="tertiary"><img src="assets/divide.svg" alt="divide"></button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="tertiary"><img src="assets/multiplica.svg" alt="multiplicação"></button>
+            <button >4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="tertiary"><img src="assets/subtrai.svg" alt="subtração"></button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="tertiary"><img src="assets/adicao.svg" alt="adição"></button>
+            <button><img src="assets/mais-menos.svg" alt="Mais e menos"></button>
+            <button>0</button>
+            <button>,</button>
+            <button class="quartiary"><img src="assets/igual2.svg" alt="igual"></button>
         </div>
     </div>
 </body>
